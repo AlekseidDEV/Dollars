@@ -1,15 +1,16 @@
-body{
-    background: url(./img/1678803037_bogatyr-club-p-fon-skrudzh-makdak-s-dengami-foni-pinteres-3.jpg) no-repeat center/cover;
+body {
+    background: url(./img/1678803037_bogatyr-club-p-fon-skrudzh-makdak-s-dengami-foni-pinteres-3.jpg)
+        no-repeat center/cover;
     height: 100vh;
 }
 
-.container{
+.container {
     max-width: 1400px;
     width: 100%;
     margin: auto;
 }
 
-.block_money_exchanger{
+.block_money_exchanger {
     background: rgb(204, 174, 1);
     border-radius: 10px;
     border: 2px solid rgb(255, 242, 170);
@@ -24,7 +25,7 @@ body{
     gap: 40px 0px;
 }
 
-.wrapp_cont{
+.wrapp_cont {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,7 +33,7 @@ body{
     width: 100%;
 }
 
-#selectTo{
+#selectTo {
     border: none;
     background: rgb(29, 149, 101);
     border-radius: 10px;
@@ -46,8 +47,7 @@ body{
     outline: none;
 }
 
-
-#selectFrom{
+#selectFrom {
     border: none;
     background: rgb(29, 149, 101);
     border-radius: 10px;
@@ -61,7 +61,7 @@ body{
     outline: none;
 }
 
-#inputSum{
+#inputSum {
     width: 250px;
     padding-left: 30px;
     padding-top: 10px;
@@ -70,11 +70,11 @@ body{
     border-radius: 10px;
 }
 
-.block_to_money{
+.block_to_money {
     width: 790px;
 }
 
-#btn{
+#btn {
     border: none;
     padding: 10px 50px;
     border-radius: 10px;

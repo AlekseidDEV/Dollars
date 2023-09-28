@@ -1,21 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <script src="./script.js" defer></script>
-    <title>Document</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./style.css" />
+        <script src="./script.js" defer></script>
+        <title>Document</title>
+    </head>
+    <body>
         <div class="block_money">
             <div class="container">
                 <div class="wrapp_cont">
                     <div class="block_money_exchanger">
-                        <h1 class="title">перевод заграничной валюты в рубли</h1>
+                        <h1 class="title">
+                            перевод заграничной валюты в рубли
+                        </h1>
                         <div class="block_to_money">
                             <select id="selectTo">
-                                <option value="" selected>валюта для обмена</option>
+                                <option value="" selected>
+                                    валюта для обмена
+                                </option>
                                 <option value="USD">Доллар США</option>
                                 <option value="EUR">ЕВРО</option>
                             </select>
@@ -24,15 +28,19 @@
                                 <option value="">перевести в рубли</option>
                             </select>
 
-                            <input id="inputSum" type="number" placeholder="введите сумму">
+                            <input
+                                id="inputSum"
+                                type="number"
+                                placeholder="введите сумму"
+                            />
                         </div>
                         <!-- /.block_to_money -->
 
                         <button id="btn">обменять</button>
-    
+
                         <div class="block_total_money">
                             <div class="result_exchang">
-                                <span result>результат 0</span>
+                                <span class="result">результат 0</span>
                             </div>
                         </div>
                         <!-- /.block_from_money -->
@@ -43,5 +51,5 @@
             </div>
         </div>
         <!-- /.block_money -->
-</body>
+    </body>
 </html>
