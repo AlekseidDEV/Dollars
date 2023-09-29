@@ -10,6 +10,11 @@ body {
     margin: auto;
 }
 
+.result{
+    font-size: 20px;
+    font-weight: 700;
+}
+
 .block_money_exchanger {
     background: rgb(204, 174, 1);
     border-radius: 10px;
